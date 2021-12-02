@@ -184,7 +184,7 @@ export default {
   },
   
     
-  mounted() {
+  created() {
   
     this.getLatest();
     if(!this.$route.query.page){
